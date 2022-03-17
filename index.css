@@ -61,6 +61,11 @@ nav ul {
   list-style: none;
   width: 30vw;
 }
+
+nav a{
+  text-decoration: none;
+  color: #000;
+}
 /* mobile media queries for nav */
 @media screen and (max-width: 480px) {
   nav {
@@ -180,6 +185,11 @@ main section p {
   line-height: 1.5;
   margin-bottom: 2vh;
 }
+
+main section a{
+  color: var(--royal-blue);
+  /* text-decoration: none; */
+}
 /* mobile main queries for nav */
 @media screen and (max-width: 480px) {
   main section {
@@ -192,7 +202,7 @@ main section p {
   main section p {
     width: 100%;
     max-width: 100%;
-    text-align: center;
+    /* text-align: center; */
     font-size: 2vh;
   }
   .services {
@@ -218,7 +228,7 @@ main section p {
   /* border: 1px solid; */
 }
 .services > div h3 {
-  font-size: 3vh;
+  font-size: 3.5vh;
   color: var(--royal-blue);
   font-family: Poppins-bold;
 }
